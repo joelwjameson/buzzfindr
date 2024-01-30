@@ -11,12 +11,12 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Depends:
     R (>= 3.6.0),
-    seewave
-bioacoustics
-tuneR
-runner
-svMisc
-rlist
-dplyr
-randomForest
-caTools
+    "seewave",
+"bioacoustics",
+"tuneR",
+"runner",
+"svMisc",
+"rlist",
+"dplyr",
+"randomForest",
+"caTools"
