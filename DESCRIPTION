@@ -1,8 +1,7 @@
 Package: buzzfindr
 Title: Buzzfindr: An R Package for the Automated Detection of Feeding Buzzes in Bat Echolocation Recordings
 Version: 0.1.0
-Authors@R: 
-    person("Joël", "Jameson", role = c("aut", "cre"),
+Authors@R: c(person("Joël", "Jameson", role = c("aut", "cre"),
                      email = "joel.jameson@wsp.com"))
 Description: To be completed.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
