@@ -32,16 +32,16 @@ buzzfindr <- function(path,
   library(parallel)
   
   #Load buzz detection model
-  z1 <- system.file("inst/rf_TEST18(17_3_24).rds", package="Another_test")
-  model.buzz <- readRDS(z1)
+  system.file("inst/rf_TEST18(17_3_24).rds", package="Another_test")
+  model.buzz <- readRDS("inst/rf_TEST18(17_3_24).rds")
   
   #Scale for variables
-  z2 <- system.file("inst/scaler.rds", package="Another_test")
-  scaler <- readRDS(z2)
+  system.file("inst/scaler.rds", package="Another_test")
+  scaler <- readRDS("inst/scaler.rds")
   
   #Detection parameters
-  z3 <- system.file("inst/det_parameters.rds", package="Another_test")
-  xallsub <- readRDS(z3)
+  system.file("inst/det_parameters.rds", package="Another_test")
+  xallsub <- readRDS("inst/det_parameters.rds")
   
   #Model name
   mod.name <- "rf_TEST18(17_3_24)"
