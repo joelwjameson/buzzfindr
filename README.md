@@ -1,8 +1,8 @@
 # buzzfindr: Automated Detection of Bat Feeding Buzzes
 
 ## Description
-
 `buzzfindr` is an R function that automates the detection and classification of feeding buzzes in full-spectrum bat echolocation recordings. It uses the signal detection algorithm from the "bioacoustics" R package developed by Marchal et al. 2022, combined with sequential bandpass filtering.
+![image](https://github.com/joelwjameson/buzzfindr/assets/32363971/898eadfc-57ad-4971-af2a-dd7e92b589f3)
 
 ## Installation
 
