@@ -13,7 +13,7 @@ devtools::install_github("joelwjameson/buzzfindr")
 ```
 
 
-Usage
+#Usage
 To use the buzzfindr function, simply call it with your echolocation recordings as input:
 
 ```
