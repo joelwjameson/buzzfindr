@@ -30,6 +30,9 @@ buzzfindr <- function(path,
   library(doSNOW)
   library(utils)
   library(parallel)
+  library(car)
+  library(readr)
+  library(entropy)
   
   #Load buzz detection model
   z1 <- system.file("rf_TEST18(17_3_24).rds", package="buzzfindr")
