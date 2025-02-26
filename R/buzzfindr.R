@@ -33,6 +33,7 @@ buzzfindr <- function(path,
   library(car)
   library(readr)
   library(entropy)
+  library(glmmTMB)
   
   #Load buzz detection model
   z1 <- system.file("rf_TEST18(17_3_24).rds", package="buzzfindr")
