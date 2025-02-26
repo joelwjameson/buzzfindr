@@ -355,7 +355,7 @@ buzzfindr <- function(path,
   progress <- function(n) setTxtProgressBar(pb, n)
   opts <- list(progress = progress)
   
-  tryCatch({#Ignore errors
+  #tryCatch({#Ignore errors
     Buzz_data <- foreach(bat_data.path=bat_data$Path,
                          bat_data.file = bat_data$File,
                          .combine = 'rbind',
@@ -530,7 +530,7 @@ buzzfindr <- function(path,
                            test.data <- test.data[,c("tstart","file","result","buzz")]
                            test.data <- test.data
                          }
-  }, error=function(e){})#End of tryCatch
+  #}, error=function(e){})#End of tryCatch
   
   #Stop cluster
   stopCluster(cl)
